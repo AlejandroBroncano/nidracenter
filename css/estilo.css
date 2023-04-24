@@ -1,0 +1,303 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:wght@300&family=Ysabeau&display=swap');
+/*  font-family: 'Poiret One', cursive; LOGO
+    font-family: 'Roboto', sans-serif; TEXTO
+    font-family: 'Ysabeau', sans-serif; NAVLINKS */
+/* Paleta de colores
+    #FFF2CC beige
+    #FFD966 amarillo
+    #F4B183 teja
+    #DFA67B marron */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #FFD966;
+    font-family: 'Poiret One';
+}
+
+.navbar-brand{
+    text-shadow: 0 0 1px #000,
+    0 0 1px #000;
+    color: #FFF2CC !important;
+}
+
+.navbar span{
+    color: #000;
+    text-shadow: none;
+}
+
+.nav-link{
+    color: #000 !important;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.nav-link:hover{
+    text-shadow: 0 0 1px black;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.fa-bars{
+    color: #000 !important;
+    font-size: 25px;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    display: grid;
+    background-color: #FFF2CC;
+    padding: 10px;
+}
+
+.aleft{
+    height: 350px;
+    width: 100%;
+    background-image: url(../media/christin-hume-0MoF-Fe0w0A-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.aright{
+height: auto;
+width: 100%;
+padding: 15px;
+}
+
+.aright h1{
+    font-size: 30px;
+    font-family: 'Ysabeau', sans-serif;
+    color: #FFD966;
+    text-shadow: 0 0 4px #000;
+    margin-bottom: 20px;
+}
+
+.aright p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+.aright a{
+    background-color: #FFD966;
+    padding: 10px 20px;
+    color: #fff;
+    border: solid 2px #FFD966;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 0 5px #DFA67B;
+    transition: 0.5s;
+}
+
+.aright a:hover{
+    background-color: #FFF2CC;
+    border: solid 2px #000;
+    color: #000;
+    transition: 0.5s;
+}
+
+h2{
+height: auto;
+background-color: #FFD966;
+text-align: center;
+color: #FFF2CC;
+text-shadow: 0 0 5px #000,
+0 0 5px #000;
+margin: 0px;
+padding: 15px;
+}
+
+.galeria{
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    background-color: #FFF2CC;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    gap: 10px;
+}
+
+.img{
+    width: 100%;
+    border: 3px solid #dfa67b;
+    border-radius: 20px;
+    background-color: #FFD966;
+    background-size: cover;
+    background-position: center;
+    filter: sepia(0%);
+    transition: 1s;
+}
+
+.img:hover{
+    filter: sepia(100);
+    transition: 1s;
+}
+
+.img1{
+    background-image: url(../media/16195213714551.jpg);
+}
+
+.img2{
+    background-image: url(../media/pexels-tima-miroshnichenko-6187852.jpg);
+}
+
+.img3{
+    background-image: url(../media/maderoterapia-1669129793.jpeg);
+}
+
+.img4{
+    background-image: url(../media/pexels-tima-miroshnichenko-6187638.jpg);
+}
+
+.img5{
+    background-image: url(../media/pexels-karolina-grabowska-4938449.jpg);
+}
+
+.img6{
+    background-image: url(../media/maderoterapia\ \(1\).jpg);
+}
+
+.img7{
+    background-image: url(../media/pexels-tima-miroshnichenko-6187851.jpg);
+}
+
+.img8{
+    background-image: url(../media/formacion-maderoterapia-corporal.jpg);
+}
+
+footer{
+    background-color: #FFD966;
+    height: auto;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.derechos{
+    text-align: center;
+}
+
+.derechos p{
+    color: #FFF2CC;
+    font-size: 22px;
+    padding-top: 15px;
+    text-shadow: 0 0 2px black;
+}
+
+.redes{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 40px;
+    letter-spacing: 15px;
+}
+.redes a{
+    color: #FFF2CC;
+    text-shadow: 0 0 1px black;
+}
+
+.redes a:hover{
+    color: #DFA67B;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width:480px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+}
+
+@media only screen and (min-width:768px){
+    .main{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .aleft{
+        height: 400px;
+    }
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .img1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .img2{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .img3{
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+    .img4{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .img5{
+        grid-column: 3/4;
+        grid-row: 2/4;
+    }
+    .img6{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .img7{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .img8{
+        grid-column: 2/4;
+        grid-row: 4/5;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .aright{
+    width: 50%;
+    justify-self: end;
+    margin-right: 25%;
+    }
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .img1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .img2{
+        grid-column: 3/5;
+        grid-row: 1/2;
+    }
+    .img3{
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    .img4{
+        grid-column: 3/5;
+        grid-row: 2/3;
+    }
+    .img5{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .img6{
+        grid-column: 3/5;
+        grid-row: 3/4;
+    }
+    .img7{
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+    .img8{
+        grid-column: 3/5;
+        grid-row: 4/5;
+    }
+}
