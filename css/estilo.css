@@ -15,15 +15,22 @@ padding: 0;
 box-sizing: border-box;
 }
 
+/* INDEX INICIO */
+
+body{
+    background-color: #FFF2CC;
+}
+
 .navbar{
-    background-color: #FFD966;
+    background: rgb(255,242,204);
+background: linear-gradient(0deg, rgba(255,242,204,1) 0%, rgba(255,236,181,1) 18%, rgba(255,233,168,1) 37%, rgba(255,232,163,1) 52%, rgba(255,217,102,1) 100%);
     font-family: 'Poiret One';
 }
 
 .navbar-brand{
     text-shadow: 0 0 1px #000,
     0 0 1px #000;
-    color: #FFF2CC !important;
+    color: #F4B183 !important;
 }
 
 .navbar span{
@@ -49,7 +56,7 @@ box-sizing: border-box;
     font-size: 25px;
 }
 
-.main{
+.mainIndex{
     width: 100%;
     height: auto;
     display: grid;
@@ -58,11 +65,13 @@ box-sizing: border-box;
 }
 
 .aleft{
-    height: 350px;
-    width: 100%;
+    height: 275px;
+    width: 90%;
+    justify-self: center;
     background-image: url(../media/christin-hume-0MoF-Fe0w0A-unsplash.jpg);
     background-position: center;
     background-size: cover;
+    border-radius: 50%;
 }
 
 .aright{
@@ -74,7 +83,7 @@ padding: 15px;
 .aright h1{
     font-size: 30px;
     font-family: 'Ysabeau', sans-serif;
-    color: #FFD966;
+    color: #DFA67B;
     text-shadow: 0 0 4px #000;
     margin-bottom: 20px;
 }
@@ -84,33 +93,38 @@ padding: 15px;
     text-align: justify;
 }
 
-.aright a{
-    background-color: #FFD966;
-    padding: 10px 20px;
+.botonMas{
+    background-color: #F4B183;
+    padding: 8px 30px;
     color: #fff;
-    border: solid 2px #FFD966;
-    border-radius: 20px;
+    border-radius: 10px;
     font-weight: bold;
+    text-align: center;
     text-decoration: none;
-    text-shadow: 0 0 5px #DFA67B;
+    text-shadow: 0 0 2px #000;
+    box-shadow: 1px 1px 2px #000;
     transition: 0.5s;
 }
-
-.aright a:hover{
-    background-color: #FFF2CC;
-    border: solid 2px #000;
-    color: #000;
+          
+.botonMas:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #fde089dc;
+    text-shadow: 0 0 6px #000;
+    box-shadow: 3px 3px 5px #000;
     transition: 0.5s;
 }
 
 h2{
 height: auto;
-background-color: #FFD966;
+width: 100%;
+background: rgb(255,217,102);
+background: radial-gradient(circle, rgba(255,217,102,1) 32%, rgba(255,242,204,1) 80%);
 text-align: center;
-color: #FFF2CC;
-text-shadow: 0 0 5px #000,
+color: #000;
+text-shadow: 0 0 5px #F4B183,
 0 0 5px #000;
-margin: 0px;
+margin-top: 20px;
 padding: 15px;
 }
 
@@ -174,7 +188,8 @@ padding: 15px;
 }
 
 footer{
-    background-color: #FFD966;
+    background: rgb(255,242,204);
+background: linear-gradient(180deg, rgba(255,242,204,1) 0%, rgba(255,236,181,1) 18%, rgba(255,233,168,1) 37%, rgba(255,232,163,1) 52%, rgba(255,217,102,1) 100%);
     height: auto;
     font-family: 'Ysabeau', sans-serif;
 }
@@ -204,26 +219,231 @@ footer{
 .redes a:hover{
     color: #DFA67B;
 }
+/* BOTON WHATS APP */
+.what{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+    font-size: 40px;
+    color: #FFF2CC;
+    text-shadow: 0 0 2px #000;
+}
 
-/* Media Queries */
+.what:hover{
+    color: springgreen;
+}
+/* INDEX FIN */
+
+/* MASAJES INICIO*/
+
+.masajes{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.tarj{
+    background: rgb(223,166,123);
+background: linear-gradient(180deg, rgba(223,166,123,1) 29%, rgba(233,189,147,1) 48%, rgba(242,211,171,1) 61%, rgba(255,242,204,1) 77%, rgba(255,242,204,1) 89%, rgba(255,242,204,1) 100%);
+    width: 80%;
+    height: 450px;
+    border-radius: 20px;
+    border: 3px solid #fff2cc;
+    /* background-color: #DFA67B; */
+    padding: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    /* box-shadow: 2px 2px 10px #FFD966; */
+}
+
+.tarj aside{
+    width: 90%;
+    height: 200px;
+    border-radius: 15px;
+
+    background-position: center;
+    background-size: cover;
+}
+.tarj h3{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    color: #fff2cc;
+    text-shadow: 0 0 5px black;
+    font-family: 'Ysabeau', sans-serif;
+    background-color: #FFD966;
+    width: 90%;
+    height: auto;
+}
+
+.tarj p{
+    width: 90%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.tarj1 aside{
+    background-image: url(../media/t1.jpg);
+}
+.tarj2 aside{
+    background-image: url(../media/t2.jpg);
+}
+.tarj3 aside{
+    background-image: url(../media/t3.jpg);
+}
+.tarj4 aside{
+    background-image: url(../media/t4.jpg);
+}
+.tarj5 aside{
+    background-image: url(../media/t5.jpg);
+}
+
+/* MASAJES FIN */
+
+/* CONTACTO INICIO */
+
+.mainContacto{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+}
+
+form input[type="text"]{
+    border: none;
+    border-radius: 12px;
+    padding: 8px;
+    background: rgb(255,217,102);
+    background: linear-gradient(270deg, rgba(255,217,102,1) 26%, rgba(255,242,204,1) 85%);
+  }
+
+form textarea{
+    border: none;
+    border-radius: 12px;
+    padding: 8px;
+    background: rgb(255,217,102);
+    background: linear-gradient(270deg, rgba(255,217,102,1) 26%, rgba(255,242,204,1) 85%);
+    overflow: auto;
+}
+
+form input[type="submit"]{
+    margin-top: 15px;
+    background: rgb(255,217,102);
+    background: linear-gradient(270deg, rgba(255,217,102,1) 26%, rgba(255,242,204,1) 85%);
+    width: 100px;
+    padding: 10px 20px;
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow: 1px 1px 2px #000;
+    transition: 0.5s;
+}
+
+form input[type="submit"]:hover{
+    text-shadow: 0 0 2px #000;
+    box-shadow: 3px 3px 5px #000;
+    color: #000;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+form input[type="reset"]{
+    margin-top: 15px;
+    background: rgb(255,217,102);
+    background: linear-gradient(270deg, rgba(255,217,102,1) 26%, rgba(255,242,204,1) 85%);
+    width: 100px;
+    padding: 10px 20px;
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow: 1px 1px 2px #000;
+    transition: 0.5s;
+}
+
+form input[type="reset"]:hover{
+    text-shadow: 0 0 2px #000;
+    box-shadow: 3px 3px 5px #000;
+    color: #000;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.mainContacto aside iframe{
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 2px #FFD966;
+}
+/* CONTACTO FIN */
+
+/* MEDIA QUERIES */
 
 @media only screen and (min-width:480px){
+    /* INDEX INICIO */
+    .aleft{
+        height: 325px;
+        width: 80%;
+        justify-self: center;
+    }
+
     .galeria{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(4, 200px);
     }
+
+    .masajes{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around ; 
+    }
+    /* INDEX FIN */
+    /* MASAJES INICIO */
+    .tarj{
+        width: 45%;
+        margin: 30px 0 30px 0;
+    }
+    /* MASAJES FIN */
+    /* CONTACTO INICIO*/
+    form input{
+        width: 350px;
+    }
+
+    form textarea{
+        width: 350px;
+    }
+
+    .mainContacto aside iframe{
+        width: 400px;
+    }
+
+    footer{
+        margin-top: 30px;
+    }
+    /* CONTACTO FIN */
 }
 
 @media only screen and (min-width:768px){
-    .main{
+    /* INDEX INICIO */
+    .mainIndex{
         grid-template-columns: 1fr 1fr;
     }
-    
+
     .aleft{
-        height: 400px;
+        height: 350px;
     }
     .galeria{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
     .img1{
         grid-column: 1/3;
@@ -257,47 +477,230 @@ footer{
         grid-column: 2/4;
         grid-row: 4/5;
     }
+    /* INDEX FIN */
+    /* MASAJES INICIO */
+    .masajes{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around ;
+    }
+
+    .tarj{
+        width: 30%;
+    }
+    /* MASAJES FIN */
+    /* CONTACTO */
+    .mainContacto{
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    form input{
+        width: 300px;
+    }
+
+    form textarea{
+        width: 350px;
+    }
+
+    .mainContacto aside iframe{
+        margin-top: 30px;
+        height: 400px;
+        width: 650px;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+    /* CONTACTO FIN */
 }
 
 @media only screen and (min-width:1024px){
+    /* INDEX INICIO */
+    .aleft{
+        width: 90%;
+        justify-self: start;
+        margin-left: 10%;
+    }
+    
     .aright{
     width: 50%;
     justify-self: end;
     margin-right: 25%;
     }
-    .galeria{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    h2{
+        margin-top: 50px;
     }
+
+    .galeria{
+        grid-template-columns: repeat(4, 1fr);
+        width: 80%;
+        grid-gap: 15px;
+        margin: 0 10% 0 10%;
+    }
+
     .img1{
         grid-column: 1/3;
         grid-row: 1/2;
     }
+
     .img2{
         grid-column: 3/5;
         grid-row: 1/2;
     }
+
     .img3{
         grid-column: 1/3;
         grid-row: 2/3;
     }
+
     .img4{
         grid-column: 3/5;
         grid-row: 2/3;
     }
+
     .img5{
         grid-column: 1/3;
         grid-row: 3/4;
     }
+
     .img6{
         grid-column: 3/5;
         grid-row: 3/4;
     }
+
     .img7{
         grid-column: 1/3;
         grid-row: 4/5;
     }
+
     .img8{
         grid-column: 3/5;
         grid-row: 4/5;
     }
+    /* INDEX FIN */
+    /* MASAJES INICIO */
+    .masajes{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around ;
+    }
+
+    .tarj{
+        width: 25%;
+        height: 600px;
+        margin: 40px;
+    }
+
+    .tarj aside{
+        height: 300px;
+    }
+    /* MASAJES FIN */
+    /* CONTACTO INICIO */
+    form input{
+        width: 325px;
+    }
+
+    form textarea{
+        width: 400px;
+    }
+
+    .mainContacto aside iframe{
+        margin-top: 50px;
+        height: 450px;
+        width: 900px;
+    }
+    /* CONTACTO FIN */
+}
+
+@media only screen and (min-width:1350px){   
+    /* INDEX INICIO */
+    .aleft{
+        width: 75%;
+        justify-self: flex-end;
+    }
+    
+    .galeria{
+        grid-template-columns: repeat(5, 1fr);
+        justify-content: center;
+        width: 85%;
+        grid-gap: 25px;
+        margin: 50px 10% 50px 10%;
+    }
+
+    .img1{
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+
+    .img2{
+        grid-column: 4/6;
+        grid-row: 1/2;
+    }
+
+    .img3{
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    .img4{
+        grid-column: 3/6;
+        grid-row: 2/3;
+    }
+
+    .img5{
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+
+    .img6{
+        grid-column: 4/6;
+        grid-row: 3/4;
+    }
+
+    .img7{
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+
+    .img8{
+        grid-column: 3/6;
+        grid-row: 4/5;
+    }
+    /* INDEX FIN */
+    /* MASAJES INICIO */
+    .masajes{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around; 
+        gap: 100px;
+    }
+
+    .tarj{
+        width: 25%;
+        height: 650px;
+        margin: 30px 0 30px 0;
+    }
+
+    .tarj aside{
+        height: 350px;
+    }
+    /* MASAJES FIN */
+    /* CONTACTO INICIO */
+    form input{
+        width: 550px;
+    }
+
+    form textarea{
+        width: 700px;
+        height: 300px;
+    }
+
+    .mainContacto aside iframe{
+        margin-top: 50px;
+        height: 600px;
+        width: 1200px;
+    }
+    /* CONTACTO FIN */
 }
