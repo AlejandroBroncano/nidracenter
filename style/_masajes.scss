@@ -1,0 +1,62 @@
+.masajes{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.tarj{
+    background: $celeste;
+    background: linear-gradient(180deg, $celeste 40%, $grisClaro 100%);   
+    width: 80%;
+    height: 450px;
+    border-radius: 20px;
+    border: 3px solid $grisClaro;
+    padding: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 20px 0 20px 0;
+
+    aside{
+        width: 90%;
+        height: 200px;
+        border-radius: 15px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    h3{
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 15px;
+        color: $grisClaro;
+        background-color: $azul;
+        text-shadow: 0 0 5px $negro;
+        font-family: $links;
+        width: 90%;
+        height: auto;
+    }
+
+    p{
+        width: 90%;
+        font-family: $texto;
+        font-weight: bold;
+    }
+}
+
+.tarj1 aside{
+    background-image: url(../media/t1.jpg);
+}
+.tarj2 aside{
+    background-image: url(../media/t2.jpg);
+}
+.tarj3 aside{
+    background-image: url(../media/t3.jpg);
+}
+.tarj4 aside{
+    background-image: url(../media/t4.jpg);
+}
+.tarj5 aside{
+    background-image: url(../media/t5.jpg);
+}

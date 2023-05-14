@@ -1,0 +1,218 @@
+body{
+    background-color: $grisClaro;
+}
+
+.navbar{
+    background: $celeste;
+    background: linear-gradient(180deg, $celeste 40%, $grisClaro 100%);
+    font-family: $links;
+
+    span{
+        color: $negro;
+    }
+}
+
+.navbar-brand{
+    text-shadow: 0 0 1px $negro;
+    color: $azul !important;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: $negro !important;
+    font-family: $links;
+}
+
+.nav-link:hover{
+    text-shadow: 0 0 1px $negro;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.fa-bars{
+    color: $azul !important;
+    font-size: 25px;
+}
+
+.mainIndex{
+    width: 100%;
+    height: auto;
+    display: grid;
+    background-color: $grisClaro;
+    padding: 10px;
+}
+
+.aleft{
+    height: 275px;
+    width: 90%;
+    justify-self: center;
+    background-image: url(../media/christin-hume-0MoF-Fe0w0A-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.aright{
+    height: auto;
+    width: 100%;
+    padding: 15px;
+
+    h1{
+        font-size: 30px;
+        font-family: $links;
+        color: $azul;
+        text-shadow: 0 0 4px #000;
+        margin-bottom: 20px;
+    }
+
+    p{
+        font-family: $texto;
+        text-align: justify;
+    }
+    
+}
+
+.botonMas{
+    background-color: $gris;
+    padding: 8px 30px;
+    color: $azul;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    box-shadow: 1px 1px 2px #000;
+    transition: 0.5s;
+}
+
+.botonMas:hover{
+    text-decoration: none;
+    color: $gris;
+    background-color: $azul;
+    text-shadow: 0 0 1px $gris;
+    box-shadow: 3px 3px 5px $negro;
+    transition: 0.5s;
+}
+
+h2{
+height: auto;
+width: 100%;
+background: $grisClaro;
+background: linear-gradient(90deg, $grisClaro 0%, #bed3ea 25%, $celeste 50%, #bdd2ea 71%, $grisClaro 100%);
+text-align: center;
+color: $negro;
+text-shadow: 0 0 5px $azul,
+0 0 5px $negro;
+margin-top: 20px;
+padding: 15px;
+}
+
+.galeria{
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    background-color: $grisClaro;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    gap: 10px;
+}
+
+.img{
+    width: 100%;
+    border: 3px solid $azul;
+    border-radius: 20px;
+    background-color: $grisClaro;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0%);
+    transition: 1s;
+}
+
+.img:hover{
+    filter: grayscale(100);
+    transition: 1s;
+}
+
+.img1{
+    background-image: url(../media/16195213714551.jpg);
+}
+
+.img2{
+    background-image: url(../media/pexels-tima-miroshnichenko-6187852.jpg);
+}
+
+.img3{
+    background-image: url(../media/maderoterapia-1669129793.jpeg);
+}
+
+.img4{
+    background-image: url(../media/pexels-tima-miroshnichenko-6187638.jpg);
+}
+
+.img5{
+    background-image: url(../media/pexels-karolina-grabowska-4938449.jpg);
+}
+
+.img6{
+    background-image: url(../media/maderoterapia\ \(1\).jpg);
+}
+
+.img7{
+    background-image: url(../media/pexels-tima-miroshnichenko-6187851.jpg);
+}
+
+.img8{
+    background-image: url(../media/formacion-maderoterapia-corporal.jpg);
+}
+
+footer{
+    background: $celeste;
+    background: linear-gradient(0deg, $celeste 40%, $grisClaro 100%);
+    height: auto;
+    font-family: $links;
+}
+
+.derechos{
+    text-align: center;
+
+    p{
+        color: $negro;
+        font-size: 22px;
+        padding-top: 15px;
+    }
+}
+
+.redes{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 40px;
+    letter-spacing: 15px;
+
+    a{
+        color: $azul;
+        text-shadow: 0 0 1px $negro;
+    }
+}
+
+.redes a:hover{
+    color: $grisClaro;
+}
+
+/* BOTON WHATSAPP */
+.what{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+    font-size: 40px;
+    color: $azul;
+    text-shadow: 0 0 2px $negro;
+}
+
+.what:hover{
+    color: springgreen;
+}

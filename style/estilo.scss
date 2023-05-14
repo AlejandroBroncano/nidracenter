@@ -1,0 +1,23 @@
+// Fuentes
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:wght@300&family=Ysabeau&display=swap');
+$logo: 'Poiret One', cursive;
+$texto: 'Roboto', sans-serif;
+$links: 'Ysabeau', sans-serif;
+
+// Paleta de colores
+$celeste: #bbd1ea;
+$azul: #0a3143;
+$grisClaro: #efefef;
+$gris: #cecfc9;
+$negro: #000;
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@import "_inicio";
+@import "_masajes";
+@import "_contacto";
+@import "_mediaQueries.scss"
