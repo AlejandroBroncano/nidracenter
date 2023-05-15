@@ -1,723 +1,815 @@
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:wght@300&family=Ysabeau&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #efefef;
+  background-color: #efefef;
 }
 
 .navbar {
-    background: #bbd1ea;
-    background: linear-gradient(180deg, #bbd1ea 40%, #efefef 100%);
-    font-family: "Ysabeau", sans-serif;
+  background: #bbd1ea;
+  background: linear-gradient(180deg, #bbd1ea 40%, #efefef 100%);
+  font-family: "Ysabeau", sans-serif;
 }
 
 .navbar span {
-    color: #000;
+  color: #000;
 }
 
 .navbar-brand {
-    text-shadow: 0 0 1px #000;
-    color: #0a3143 !important;
-    font-weight: bold;
+  text-shadow: 0 0 1px #000;
+  color: #0a3143 !important;
+  font-weight: bold;
 }
 
 .nav-link {
-    color: #000 !important;
-    font-family: "Ysabeau", sans-serif;
+  color: #000 !important;
+  font-family: "Ysabeau", sans-serif;
 }
 
 .nav-link:hover {
-    text-shadow: 0 0 1px #000;
+  text-shadow: 0 0 1px #000;
 }
 
 .navbar-toggler {
-    border: none;
+  border: none;
 }
 
 .fa-bars {
-    color: #0a3143 !important;
-    font-size: 25px;
+  color: #0a3143 !important;
+  font-size: 25px;
 }
 
 .mainIndex {
-    width: 100%;
-    height: auto;
-    display: grid;
-    background-color: #efefef;
-    padding: 10px;
+  width: 100%;
+  height: auto;
+  display: grid;
+  background-color: #efefef;
+  padding: 10px;
 }
 
 .aleft {
-    height: 275px;
-    width: 90%;
-    justify-self: center;
-    background-image: url(../media/christin-hume-0MoF-Fe0w0A-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 50%;
+  height: 275px;
+  width: 90%;
+  justify-self: center;
+  background-image: url(../media/christin-hume-0MoF-Fe0w0A-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
 }
 
 .aright {
-    height: auto;
-    width: 100%;
-    padding: 15px;
+  height: auto;
+  width: 100%;
+  padding: 15px;
 }
 
 .aright h1 {
-    font-size: 30px;
-    font-family: "Ysabeau", sans-serif;
-    color: #0a3143;
-    text-shadow: 0 0 4px #000;
-    margin-bottom: 20px;
+  font-size: 30px;
+  font-family: "Ysabeau", sans-serif;
+  color: #0a3143;
+  text-shadow: 0 0 4px #000;
+  margin-bottom: 20px;
 }
 
 .aright p {
-    font-family: "Roboto", sans-serif;
-    text-align: justify;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
 }
 
 .botonMas {
-    background-color: #cecfc9;
-    padding: 8px 30px;
-    color: #0a3143;
-    border-radius: 10px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: 0 0 1px #000;
-    box-shadow: 1px 1px 2px #000;
-    transition: 0.5s;
+  background-color: #cecfc9;
+  padding: 8px 30px;
+  color: #0a3143;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 1px #000;
+  box-shadow: 1px 1px 2px #000;
+  transition: 0.5s;
 }
 
 .botonMas:hover {
-    text-decoration: none;
-    color: #cecfc9;
-    background-color: #0a3143;
-    text-shadow: 0 0 1px #cecfc9;
-    box-shadow: 3px 3px 5px #000;
-    transition: 0.5s;
+  text-decoration: none;
+  color: #cecfc9;
+  background-color: #0a3143;
+  text-shadow: 0 0 1px #cecfc9;
+  box-shadow: 3px 3px 5px #000;
+  transition: 0.5s;
 }
 
 h2 {
-    height: auto;
-    width: 100%;
-    background: #efefef;
-    background: linear-gradient(90deg, #efefef 0%, #bed3ea 25%, #bbd1ea 50%, #bdd2ea 71%, #efefef 100%);
-    text-align: center;
-    color: #000;
-    text-shadow: 0 0 5px #0a3143, 0 0 5px #000;
-    margin-top: 20px;
-    padding: 15px;
+  height: auto;
+  width: 100%;
+  background: #efefef;
+  background: linear-gradient(90deg, #efefef 0%, #bed3ea 25%, #bbd1ea 50%, #bdd2ea 71%, #efefef 100%);
+  text-align: center;
+  color: #000;
+  text-shadow: 0 0 5px #0a3143, 0 0 2px #0a3143;
+  margin-top: 20px;
+  padding: 15px;
 }
 
 .galeria {
-    width: 100%;
-    height: auto;
-    padding: 12px;
-    background-color: #efefef;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 200px);
-    gap: 10px;
+  width: 100%;
+  height: auto;
+  padding: 12px;
+  background-color: #efefef;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 200px);
+  gap: 10px;
 }
 
 .img {
-    width: 100%;
-    border: 3px solid #0a3143;
-    border-radius: 20px;
-    background-color: #efefef;
-    background-size: cover;
-    background-position: center;
-    filter: grayscale(0%);
-    transition: 1s;
+  width: 100%;
+  border: 3px solid #0a3143;
+  border-radius: 20px;
+  background-color: #efefef;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(0%);
+  transition: 1s;
 }
 
 .img:hover {
-    filter: grayscale(100);
-    transition: 1s;
+  filter: grayscale(100);
+  transition: 1s;
 }
 
 .img1 {
-    background-image: url(../media/16195213714551.jpg);
+  background-image: url(../media/16195213714551.jpg);
 }
 
 .img2 {
-    background-image: url(../media/pexels-tima-miroshnichenko-6187852.jpg);
+  background-image: url(../media/pexels-tima-miroshnichenko-6187852.jpg);
 }
 
 .img3 {
-    background-image: url(../media/maderoterapia-1669129793.jpeg);
+  background-image: url(../media/maderoterapia-1669129793.jpeg);
 }
 
 .img4 {
-    background-image: url(../media/pexels-tima-miroshnichenko-6187638.jpg);
+  background-image: url(../media/pexels-tima-miroshnichenko-6187638.jpg);
 }
 
 .img5 {
-    background-image: url(../media/pexels-karolina-grabowska-4938449.jpg);
+  background-image: url(../media/pexels-karolina-grabowska-4938449.jpg);
 }
 
 .img6 {
-    background-image: url(../media/maderoterapia\ \(1\).jpg);
+  background-image: url(../media/maderoterapia\ \(1\).jpg);
 }
 
 .img7 {
-    background-image: url(../media/pexels-tima-miroshnichenko-6187851.jpg);
+  background-image: url(../media/pexels-tima-miroshnichenko-6187851.jpg);
 }
 
 .img8 {
-    background-image: url(../media/formacion-maderoterapia-corporal.jpg);
+  background-image: url(../media/formacion-maderoterapia-corporal.jpg);
 }
 
 footer {
-    background: #bbd1ea;
-    background: linear-gradient(0deg, #bbd1ea 40%, #efefef 100%);
-    height: auto;
-    font-family: "Ysabeau", sans-serif;
+  background: #bbd1ea;
+  background: linear-gradient(0deg, #bbd1ea 40%, #efefef 100%);
+  height: auto;
+  font-family: "Ysabeau", sans-serif;
 }
 
 .derechos {
-    text-align: center;
+  text-align: center;
 }
 
 .derechos p {
-    color: #000;
-    font-size: 22px;
-    padding-top: 15px;
+  color: #000;
+  font-size: 22px;
+  padding-top: 15px;
 }
 
 .redes {
-    text-align: center;
-    padding-bottom: 15px;
-    font-size: 40px;
-    letter-spacing: 15px;
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 40px;
+  letter-spacing: 15px;
 }
 
 .redes a {
-    color: #0a3143;
-    text-shadow: 0 0 1px #000;
+  color: #0a3143;
+  text-shadow: 0 0 1px #000;
 }
 
 .redes a:hover {
-    color: #efefef;
+  color: #efefef;
 }
 
 /* BOTON WHATSAPP */
 .what {
-    height: 50px;
-    width: 50px;
-    position: fixed;
-    right: 40px;
-    bottom: 20px;
-    font-size: 40px;
-    color: #0a3143;
-    text-shadow: 0 0 2px #000;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 40px;
+  bottom: 20px;
+  font-size: 40px;
+  color: #0a3143;
+  text-shadow: 0 0 2px #000;
 }
 
 .what:hover {
-    color: springgreen;
+  color: springgreen;
 }
 
 .masajes {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 .tarj {
-    background: #bbd1ea;
-    background: linear-gradient(180deg, #bbd1ea 40%, #efefef 100%);
-    width: 80%;
-    height: 450px;
-    border-radius: 20px;
-    border: 3px solid #efefef;
-    padding: 15px;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    margin: 20px 0 20px 0;
+  background: #bbd1ea;
+  background: linear-gradient(180deg, #bbd1ea 40%, #efefef 100%);
+  width: 80%;
+  height: 450px;
+  border-radius: 20px;
+  border: 3px solid #efefef;
+  padding: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 20px 0 20px 0;
 }
 
 .tarj aside {
-    width: 90%;
-    height: 200px;
-    border-radius: 15px;
-    background-position: center;
-    background-size: cover;
+  width: 90%;
+  height: 200px;
+  border-radius: 15px;
+  background-position: center;
+  background-size: cover;
 }
 
 .tarj h3 {
-    margin-top: 10px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 15px;
-    color: #efefef;
-    background-color: #0a3143;
-    text-shadow: 0 0 5px #000;
-    font-family: "Ysabeau", sans-serif;
-    width: 90%;
-    height: auto;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+  color: #efefef;
+  background-color: #0a3143;
+  text-shadow: 0 0 5px #000;
+  font-family: "Ysabeau", sans-serif;
+  width: 90%;
+  height: auto;
 }
 
 .tarj p {
-    width: 90%;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
+  width: 90%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 
 .tarj1 aside {
-    background-image: url(../media/t1.jpg);
+  background-image: url(../media/t1.jpg);
 }
 
 .tarj2 aside {
-    background-image: url(../media/t2.jpg);
+  background-image: url(../media/t2.jpg);
 }
 
 .tarj3 aside {
-    background-image: url(../media/t3.jpg);
+  background-image: url(../media/t3.jpg);
 }
 
 .tarj4 aside {
-    background-image: url(../media/t4.jpg);
+  background-image: url(../media/t4.jpg);
 }
 
 .tarj5 aside {
-    background-image: url(../media/t5.jpg);
+  background-image: url(../media/t5.jpg);
 }
 
 .mainContacto {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 form {
-    font-family: "Roboto", sans-serif;
-    margin: 20px;
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
 }
 
 form input[type=text] {
-    border: none;
-    border-radius: 12px;
-    padding: 8px;
-    background: rgb(187, 209, 234);
-    background: linear-gradient(270deg, rgb(187, 209, 234) 40%, rgb(239, 239, 239) 100%);
+  border: none;
+  border-radius: 12px;
+  padding: 8px;
+  background: rgb(187, 209, 234);
+  background: linear-gradient(270deg, rgb(187, 209, 234) 40%, rgb(239, 239, 239) 100%);
 }
 
 form input[type=text]:focus {
-    outline: 1px solid #cecfc9;
-    border-radius: 10px;
+  outline: 1px solid #cecfc9;
+  border-radius: 10px;
 }
 
 form textarea {
-    border: none;
-    border-radius: 12px;
-    padding: 8px;
-    background: rgb(187, 209, 234);
-    background: linear-gradient(270deg, rgb(187, 209, 234) 40%, rgb(239, 239, 239) 100%);
-    overflow: auto;
+  border: none;
+  border-radius: 12px;
+  padding: 8px;
+  background: rgb(187, 209, 234);
+  background: linear-gradient(270deg, rgb(187, 209, 234) 40%, rgb(239, 239, 239) 100%);
+  overflow: auto;
 }
 
 form textarea:focus {
-    outline: 1px solid #cecfc9;
-    border-radius: 10px;
+  outline: 1px solid #cecfc9;
+  border-radius: 10px;
 }
 
 form input[type=submit] {
-    margin-top: 15px;
-    background-color: #cecfc9;
-    width: auto;
-    padding: 8px 30px;
-    color: #0a3143;
-    border: none;
-    border-radius: 10px;
-    text-decoration: none;
-    box-shadow: 1px 1px 2px #000;
-    transition: 0.5s;
+  margin-top: 15px;
+  background-color: #cecfc9;
+  width: auto;
+  padding: 8px 30px;
+  color: #0a3143;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 1px 1px 2px #000;
+  transition: 0.5s;
 }
 
 form input[type=submit]:hover {
-    text-shadow: 0 0 2px #000;
-    box-shadow: 3px 3px 5px #000;
-    background-color: #0a3143;
-    color: #cecfc9;
-    transition: 0.5s;
-    text-decoration: none;
+  text-shadow: 0 0 2px #000;
+  box-shadow: 3px 3px 5px #000;
+  background-color: #0a3143;
+  color: #cecfc9;
+  transition: 0.5s;
+  text-decoration: none;
 }
 
 form input[type=reset] {
-    margin-top: 15px;
-    background-color: #cecfc9;
-    width: auto;
-    padding: 8px 30px;
-    color: #0a3143;
-    border: none;
-    border-radius: 10px;
-    text-decoration: none;
-    box-shadow: 1px 1px 2px #000;
-    transition: 0.5s;
+  margin-top: 15px;
+  background-color: #cecfc9;
+  width: auto;
+  padding: 8px 30px;
+  color: #0a3143;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 1px 1px 2px #000;
+  transition: 0.5s;
 }
 
 form input[type=reset]:hover {
-    text-shadow: 0 0 2px #000;
-    box-shadow: 3px 3px 5px #000;
-    background-color: #0a3143;
-    color: #cecfc9;
-    transition: 0.5s;
-    text-decoration: none;
+  text-shadow: 0 0 2px #000;
+  box-shadow: 3px 3px 5px #000;
+  background-color: #0a3143;
+  color: #cecfc9;
+  transition: 0.5s;
+  text-decoration: none;
 }
 
 .mainContacto aside iframe {
-    width: 100%;
-    border-radius: 30px;
-    box-shadow: 0px 0px 5px 2px #0a3143;
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px 2px #0a3143;
+}
+
+.manos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.aNosotrosL {
+  height: 250px;
+  width: 94%;
+  background-image: url(../media/manos.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.aNosotrosR {
+  font-family: "Roboto", sans-serif;
+  padding: 15px;
+  text-align: justify;
+}
+
+.plantilla {
+  height: auto;
+  width: 95%;
+  background-color: #efefef;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 25px;
+  align-items: center;
+  margin: 2.5%;
+}
+
+.staff {
+  height: auto;
+  width: 250px;
+  border-radius: 12px;
+  border: solid 2px #0a3143;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  transition: all 0.7s;
+  margin: 50px;
+}
+
+.staff:hover {
+  background-color: #bbd1ea;
+  transform: scale(1.1) rotate(10deg);
+  color: #fff;
+  transition: all 0.7s;
+}
+
+.foto {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  border: solid 1px #000;
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+.foto1 {
+  background-image: url(../media/mujer.jpg);
+}
+
+.foto2 {
+  background-image: url(../media/hombre.jpg);
+}
+
+.foto3 {
+  background-image: url(../media/hombre2.jpg);
+}
+
+.foto4 {
+  background-image: url(../media/hombre3.jpg);
+}
+
+h3 {
+  height: auto;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  color: #0a3143;
+  font-family: "Ysabeau", sans-serif;
 }
 
 @media only screen and (min-width: 480px) {
+  .aleft {
+    height: 325px;
+    width: 80%;
+    justify-self: center;
+  }
 
-    /* INDEX INICIO */
-    .aleft {
-        height: 325px;
-        width: 80%;
-        justify-self: center;
-    }
+  .galeria {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 200px);
+  }
 
-    .galeria {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 200px);
-    }
+  .masajes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
 
-    .masajes {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-    }
+  .tarj {
+    width: 45%;
+    margin: 30px 0 30px 0;
+  }
 
-    /* INDEX FIN */
-    /* MASAJES INICIO */
-    .tarj {
-        width: 45%;
-        margin: 30px 0 30px 0;
-    }
+  form input {
+    width: 350px;
+  }
 
-    /* MASAJES FIN */
-    /* CONTACTO INICIO*/
-    form input {
-        width: 350px;
-    }
+  form textarea {
+    width: 350px;
+  }
 
-    form textarea {
-        width: 350px;
-    }
+  .mainContacto aside iframe {
+    width: 400px;
+  }
 
-    .mainContacto aside iframe {
-        width: 400px;
-    }
+  footer {
+    margin-top: 30px;
+  }
 
-    footer {
-        margin-top: 30px;
-    }
-
-    /* CONTACTO FIN */
+  .staff {
+    width: 85%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
+  .mainIndex {
+    grid-template-columns: 1fr 1fr;
+  }
 
-    /* INDEX INICIO */
-    .mainIndex {
-        grid-template-columns: 1fr 1fr;
-    }
+  .aleft {
+    height: 350px;
+  }
 
-    .aleft {
-        height: 350px;
-    }
+  .galeria {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-    .galeria {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .img1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
 
-    .img1 {
-        grid-column: 1/3;
-        grid-row: 1/2;
-    }
+  .img2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
 
-    .img2 {
-        grid-column: 3/4;
-        grid-row: 1/2;
-    }
+  .img3 {
+    grid-column: 1/2;
+    grid-row: 2/4;
+  }
 
-    .img3 {
-        grid-column: 1/2;
-        grid-row: 2/4;
-    }
+  .img4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
 
-    .img4 {
-        grid-column: 2/3;
-        grid-row: 2/3;
-    }
+  .img5 {
+    grid-column: 3/4;
+    grid-row: 2/4;
+  }
 
-    .img5 {
-        grid-column: 3/4;
-        grid-row: 2/4;
-    }
+  .img6 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
 
-    .img6 {
-        grid-column: 2/3;
-        grid-row: 3/4;
-    }
+  .img7 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
 
-    .img7 {
-        grid-column: 1/2;
-        grid-row: 4/5;
-    }
+  .img8 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+  }
 
-    .img8 {
-        grid-column: 2/4;
-        grid-row: 4/5;
-    }
+  .masajes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
 
-    /* INDEX FIN */
-    /* MASAJES INICIO */
-    .masajes {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-    }
+  .tarj {
+    width: 30%;
+  }
 
-    .tarj {
-        width: 30%;
-    }
+  .mainContacto {
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
 
-    /* MASAJES FIN */
-    /* CONTACTO */
-    .mainContacto {
-        flex-wrap: wrap;
-        margin-top: 50px;
-    }
+  form input {
+    width: 300px;
+  }
 
-    form input {
-        width: 300px;
-    }
+  form textarea {
+    width: 350px;
+  }
 
-    form textarea {
-        width: 350px;
-    }
+  .mainContacto aside iframe {
+    margin-top: 30px;
+    height: 400px;
+    width: 650px;
+  }
 
-    .mainContacto aside iframe {
-        margin-top: 30px;
-        height: 400px;
-        width: 650px;
-    }
+  footer {
+    margin-top: 50px;
+  }
 
-    footer {
-        margin-top: 50px;
-    }
+  .plantilla {
+    flex-flow: row wrap;
+    align-items: start;
+  }
 
-    /* CONTACTO FIN */
+  .staff {
+    width: 350px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
+  .aleft {
+    width: 90%;
+    justify-self: start;
+    margin-left: 10%;
+  }
 
-    /* INDEX INICIO */
-    .aleft {
-        width: 90%;
-        justify-self: start;
-        margin-left: 10%;
-    }
+  .aright {
+    width: 50%;
+    justify-self: end;
+    margin-right: 25%;
+  }
 
-    .aright {
-        width: 50%;
-        justify-self: end;
-        margin-right: 25%;
-    }
+  h2 {
+    margin-top: 50px;
+  }
 
-    h2 {
-        margin-top: 50px;
-    }
+  .galeria {
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    grid-gap: 15px;
+    margin: 0 10% 0 10%;
+  }
 
-    .galeria {
-        grid-template-columns: repeat(4, 1fr);
-        width: 80%;
-        grid-gap: 15px;
-        margin: 0 10% 0 10%;
-    }
+  .img1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
 
-    .img1 {
-        grid-column: 1/3;
-        grid-row: 1/2;
-    }
+  .img2 {
+    grid-column: 3/5;
+    grid-row: 1/2;
+  }
 
-    .img2 {
-        grid-column: 3/5;
-        grid-row: 1/2;
-    }
+  .img3 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
 
-    .img3 {
-        grid-column: 1/3;
-        grid-row: 2/3;
-    }
+  .img4 {
+    grid-column: 3/5;
+    grid-row: 2/3;
+  }
 
-    .img4 {
-        grid-column: 3/5;
-        grid-row: 2/3;
-    }
+  .img5 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
 
-    .img5 {
-        grid-column: 1/3;
-        grid-row: 3/4;
-    }
+  .img6 {
+    grid-column: 3/5;
+    grid-row: 3/4;
+  }
 
-    .img6 {
-        grid-column: 3/5;
-        grid-row: 3/4;
-    }
+  .img7 {
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
 
-    .img7 {
-        grid-column: 1/3;
-        grid-row: 4/5;
-    }
+  .img8 {
+    grid-column: 3/5;
+    grid-row: 4/5;
+  }
 
-    .img8 {
-        grid-column: 3/5;
-        grid-row: 4/5;
-    }
+  .masajes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
 
-    /* INDEX FIN */
-    /* MASAJES INICIO */
-    .masajes {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-    }
+  .tarj {
+    width: 25%;
+    height: 600px;
+    margin: 40px;
+  }
 
-    .tarj {
-        width: 25%;
-        height: 600px;
-        margin: 40px;
-    }
+  .tarj aside {
+    height: 300px;
+  }
 
-    .tarj aside {
-        height: 300px;
-    }
+  form input {
+    width: 325px;
+  }
 
-    /* MASAJES FIN */
-    /* CONTACTO INICIO */
-    form input {
-        width: 325px;
-    }
+  form textarea {
+    width: 400px;
+  }
 
-    form textarea {
-        width: 400px;
-    }
+  .mainContacto aside iframe {
+    margin-top: 50px;
+    height: 450px;
+    width: 900px;
+  }
 
-    .mainContacto aside iframe {
-        margin-top: 50px;
-        height: 450px;
-        width: 900px;
-    }
+  .plantilla {
+    justify-content: center;
+  }
 
-    /* CONTACTO FIN */
+  .staff {
+    width: 700px;
+    margin-bottom: 100px;
+  }
+
+  .foto {
+    height: 300px;
+    width: 300px;
+  }
 }
 
 @media only screen and (min-width: 1350px) {
+  .aleft {
+    width: 75%;
+    justify-self: flex-end;
+  }
 
-    /* INDEX INICIO */
-    .aleft {
-        width: 75%;
-        justify-self: flex-end;
-    }
+  .galeria {
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    width: 85%;
+    grid-gap: 25px;
+    margin: 50px 10% 50px 10%;
+  }
 
-    .galeria {
-        grid-template-columns: repeat(5, 1fr);
-        justify-content: center;
-        width: 85%;
-        grid-gap: 25px;
-        margin: 50px 10% 50px 10%;
-    }
+  .img1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
 
-    .img1 {
-        grid-column: 1/4;
-        grid-row: 1/2;
-    }
+  .img2 {
+    grid-column: 4/6;
+    grid-row: 1/2;
+  }
 
-    .img2 {
-        grid-column: 4/6;
-        grid-row: 1/2;
-    }
+  .img3 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
 
-    .img3 {
-        grid-column: 1/3;
-        grid-row: 2/3;
-    }
+  .img4 {
+    grid-column: 3/6;
+    grid-row: 2/3;
+  }
 
-    .img4 {
-        grid-column: 3/6;
-        grid-row: 2/3;
-    }
+  .img5 {
+    grid-column: 1/4;
+    grid-row: 3/4;
+  }
 
-    .img5 {
-        grid-column: 1/4;
-        grid-row: 3/4;
-    }
+  .img6 {
+    grid-column: 4/6;
+    grid-row: 3/4;
+  }
 
-    .img6 {
-        grid-column: 4/6;
-        grid-row: 3/4;
-    }
+  .img7 {
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
 
-    .img7 {
-        grid-column: 1/3;
-        grid-row: 4/5;
-    }
+  .img8 {
+    grid-column: 3/6;
+    grid-row: 4/5;
+  }
 
-    .img8 {
-        grid-column: 3/6;
-        grid-row: 4/5;
-    }
+  .masajes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 100px;
+  }
 
-    /* INDEX FIN */
-    /* MASAJES INICIO */
-    .masajes {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        gap: 100px;
-    }
+  .tarj {
+    width: 25%;
+    height: 650px;
+    margin: 30px 0 30px 0;
+  }
 
-    .tarj {
-        width: 25%;
-        height: 650px;
-        margin: 30px 0 30px 0;
-    }
+  .tarj aside {
+    height: 350px;
+  }
 
-    .tarj aside {
-        height: 350px;
-    }
+  form input {
+    width: 550px;
+  }
 
-    /* MASAJES FIN */
-    /* CONTACTO INICIO */
-    form input {
-        width: 550px;
-    }
+  form textarea {
+    width: 700px;
+    height: 300px;
+  }
 
-    form textarea {
-        width: 700px;
-        height: 300px;
-    }
+  .mainContacto aside iframe {
+    margin-top: 50px;
+    height: 600px;
+    width: 1200px;
+  }
 
-    .mainContacto aside iframe {
-        margin-top: 50px;
-        height: 600px;
-        width: 1200px;
-    }
+  .staff {
+    width: 90%;
+    margin-bottom: 150px;
+  }
 
-    /* CONTACTO FIN */
+  .foto {
+    height: 450px;
+    width: 450px;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

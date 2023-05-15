@@ -1,5 +1,6 @@
+// Break point para moviles en horizontal
 @media only screen and (min-width:480px){
-    /* INDEX INICIO */
+    // INDEX INICIO
     .aleft{
         height: 325px;
         width: 80%;
@@ -16,14 +17,14 @@
         flex-flow: row wrap;
         justify-content: space-around ; 
     }
-    /* INDEX FIN */
-    /* MASAJES INICIO */
+    // INDEX FIN 
+    // MASAJES INICIO 
     .tarj{
         width: 45%;
         margin: 30px 0 30px 0;
     }
-    /* MASAJES FIN */
-    /* CONTACTO INICIO*/
+    // MASAJES FIN 
+    // CONTACTO INICIO
     form input{
         width: 350px;
     }
@@ -39,11 +40,16 @@
     footer{
         margin-top: 30px;
     }
-    /* CONTACTO FIN */
+    // CONTACTO FIN 
+    // ABOUT INICIO
+    .staff{
+        width: 85%;
+    }
+    // ABOUT FIN
 }
-
+// Break point para tablets
 @media only screen and (min-width:768px){
-    /* INDEX INICIO */
+    // INDEX INICIO 
     .mainIndex{
         grid-template-columns: 1fr 1fr;
     }
@@ -86,8 +92,8 @@
         grid-column: 2/4;
         grid-row: 4/5;
     }
-    /* INDEX FIN */
-    /* MASAJES INICIO */
+    // INDEX FIN 
+    // MASAJES INICIO 
     .masajes{
         display: flex;
         flex-flow: row wrap;
@@ -97,8 +103,8 @@
     .tarj{
         width: 30%;
     }
-    /* MASAJES FIN */
-    /* CONTACTO */
+    // MASAJES FIN 
+    // CONTACTO 
     .mainContacto{
         flex-wrap: wrap;
         margin-top: 50px;
@@ -121,11 +127,21 @@
     footer{
         margin-top: 50px;
     }
-    /* CONTACTO FIN */
-}
+    // CONTACTO FIN 
+    // ABOUT INICIO
+    .plantilla{
+        flex-flow: row wrap;
+        align-items: start;
+    }
 
+    .staff{
+        width: 350px;
+    }
+    // ABOUT FIN
+}
+// Break point para portatiles y ipad
 @media only screen and (min-width:1024px){
-    /* INDEX INICIO */
+    // INDEX INICIO 
     .aleft{
         width: 90%;
         justify-self: start;
@@ -188,8 +204,8 @@
         grid-column: 3/5;
         grid-row: 4/5;
     }
-    /* INDEX FIN */
-    /* MASAJES INICIO */
+    // INDEX FIN 
+    // MASAJES INICIO 
     .masajes{
         display: flex;
         flex-flow: row wrap;
@@ -205,8 +221,8 @@
     .tarj aside{
         height: 300px;
     }
-    /* MASAJES FIN */
-    /* CONTACTO INICIO */
+    // MASAJES FIN 
+    // CONTACTO INICIO 
     form input{
         width: 325px;
     }
@@ -220,11 +236,26 @@
         height: 450px;
         width: 900px;
     }
-    /* CONTACTO FIN */
-}
+    // CONTACTO FIN 
+    // ABOUT INICIO
+    .plantilla{
+        justify-content: center;
+    }
 
+    .staff{
+        width: 700px;
+        margin-bottom: 100px;
+    }
+
+    .foto{
+        height: 300px;
+        width: 300px;
+    // ABOUT FIN
+    }
+}
+// Break point para pantallas panoramicas
 @media only screen and (min-width:1350px){   
-    /* INDEX INICIO */
+    // INDEX INICIO 
     .aleft{
         width: 75%;
         justify-self: flex-end;
@@ -277,8 +308,8 @@
         grid-column: 3/6;
         grid-row: 4/5;
     }
-    /* INDEX FIN */
-    /* MASAJES INICIO */
+    // INDEX FIN 
+    // MASAJES INICIO 
     .masajes{
         display: flex;
         flex-flow: row wrap;
@@ -295,8 +326,8 @@
     .tarj aside{
         height: 350px;
     }
-    /* MASAJES FIN */
-    /* CONTACTO INICIO */
+    // MASAJES FIN 
+    // CONTACTO INICIO 
     form input{
         width: 550px;
     }
@@ -311,5 +342,16 @@
         height: 600px;
         width: 1200px;
     }
-    /* CONTACTO FIN */
+    // CONTACTO FIN 
+    // ABOUT INICIO
+    .staff{
+        width: 90%;
+        margin-bottom: 150px;
+    }
+
+    .foto{
+        height: 450px;
+        width: 450px;
+    // ABOUT FIN
+    }
 }

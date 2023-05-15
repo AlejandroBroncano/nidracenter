@@ -103,8 +103,7 @@ background: $grisClaro;
 background: linear-gradient(90deg, $grisClaro 0%, #bed3ea 25%, $celeste 50%, #bdd2ea 71%, $grisClaro 100%);
 text-align: center;
 color: $negro;
-text-shadow: 0 0 5px $azul,
-0 0 5px $negro;
+text-shadow: 0 0 5px $azul, 0 0 2px $azul;
 margin-top: 20px;
 padding: 15px;
 }

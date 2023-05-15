@@ -1,0 +1,86 @@
+.manos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.aNosotrosL{
+    height: 250px;
+    width: 94%;
+    background-image: url(../media/manos.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.aNosotrosR{
+    font-family: $texto;
+    padding: 15px;
+    text-align: justify;
+}
+
+.plantilla{
+    height: auto;
+    width: 95%;
+    background-color: $grisClaro;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 25px;
+    align-items: center;
+    margin: 2.5%;
+}
+
+.staff{
+    height: auto;
+    width: 250px;
+    border-radius: 12px;
+    border: solid 2px $azul;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    transition: all 0.7s;
+    margin: 50px;
+}
+
+.staff:hover{
+    background-color: $celeste;
+    transform: scale(1.1) rotate(10deg);
+    color: #fff;
+    transition: all 0.7s;
+}
+
+.foto{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: solid 1px $negro;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.foto1{
+    background-image: url(../media/mujer.jpg);
+}
+
+.foto2{
+    background-image: url(../media/hombre.jpg);
+}
+
+.foto3{
+    background-image: url(../media/hombre2.jpg);
+}
+
+.foto4{
+    background-image: url(../media/hombre3.jpg);
+}
+
+h3{
+    height: auto;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    color: $azul;
+    font-family: $links;
+}
