@@ -45,8 +45,8 @@
 
 .staff:hover {
     background-color: $celeste;
-    transform: scale(1.1) rotate(10deg);
-    color: #fff;
+    transform: scale(0.9) rotate(-5deg);
+    color: $azul;
     transition: all 0.7s;
 }
 
