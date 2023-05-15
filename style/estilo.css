@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:wght@300&family=Ysabeau&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +14,6 @@ body {
   background: linear-gradient(180deg, #bbd1ea 40%, #efefef 100%);
   font-family: "Ysabeau", sans-serif;
 }
-
 .navbar span {
   color: #000;
 }
@@ -67,7 +65,6 @@ body {
   width: 100%;
   padding: 15px;
 }
-
 .aright h1 {
   font-size: 30px;
   font-family: "Ysabeau", sans-serif;
@@ -75,7 +72,6 @@ body {
   text-shadow: 0 0 4px #000;
   margin-bottom: 20px;
 }
-
 .aright p {
   font-family: "Roboto", sans-serif;
   text-align: justify;
@@ -184,7 +180,6 @@ footer {
 .derechos {
   text-align: center;
 }
-
 .derechos p {
   color: #000;
   font-size: 22px;
@@ -197,7 +192,6 @@ footer {
   font-size: 40px;
   letter-spacing: 15px;
 }
-
 .redes a {
   color: #0a3143;
   text-shadow: 0 0 1px #000;
@@ -242,7 +236,6 @@ footer {
   align-items: center;
   margin: 20px 0 20px 0;
 }
-
 .tarj aside {
   width: 90%;
   height: 200px;
@@ -250,7 +243,6 @@ footer {
   background-position: center;
   background-size: cover;
 }
-
 .tarj h3 {
   margin-top: 10px;
   padding: 10px;
@@ -263,7 +255,6 @@ footer {
   width: 90%;
   height: auto;
 }
-
 .tarj p {
   width: 90%;
   font-family: "Roboto", sans-serif;
@@ -466,261 +457,312 @@ h3 {
   font-family: "Ysabeau", sans-serif;
 }
 
+.linea {
+  width: 100%;
+  height: 150px;
+  margin: 50px 0 50px 0;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.linea2 {
+  width: 100%;
+  height: 150px;
+  margin: 50px 0 50px 0;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.promo {
+  width: 70%;
+  height: 150px;
+  padding: 5px;
+  background: #bbd1ea;
+  background: linear-gradient(0deg, #bbd1ea 40%, #efefef 100%);
+}
+.promo p {
+  font-family: "Roboto", sans-serif;
+  color: #0a3143;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ip1 {
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 150px;
+  background-image: url(../media/madero10.jpg);
+}
+
+.ip2 {
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 150px;
+  background-image: url(../media/madero20.jpg);
+}
+
+.ip3 {
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 150px;
+  background-image: url(../media/madero30.jpg);
+}
+
+.ip4 {
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 150px;
+  background-image: url(../media/romantico.jpg);
+}
+
 @media only screen and (min-width: 480px) {
   .aleft {
     height: 325px;
     width: 80%;
     justify-self: center;
   }
-
   .galeria {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 200px);
   }
-
   .masajes {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
   }
-
   .tarj {
     width: 45%;
     margin: 30px 0 30px 0;
   }
-
   form input {
     width: 350px;
   }
-
   form textarea {
     width: 350px;
   }
-
   .mainContacto aside iframe {
     width: 400px;
   }
-
   footer {
     margin-top: 30px;
   }
-
   .staff {
     width: 85%;
   }
 }
-
 @media only screen and (min-width: 768px) {
   .mainIndex {
     grid-template-columns: 1fr 1fr;
   }
-
   .aleft {
     height: 350px;
   }
-
   .galeria {
     grid-template-columns: repeat(3, 1fr);
   }
-
   .img1 {
     grid-column: 1/3;
     grid-row: 1/2;
   }
-
   .img2 {
     grid-column: 3/4;
     grid-row: 1/2;
   }
-
   .img3 {
     grid-column: 1/2;
     grid-row: 2/4;
   }
-
   .img4 {
     grid-column: 2/3;
     grid-row: 2/3;
   }
-
   .img5 {
     grid-column: 3/4;
     grid-row: 2/4;
   }
-
   .img6 {
     grid-column: 2/3;
     grid-row: 3/4;
   }
-
   .img7 {
     grid-column: 1/2;
     grid-row: 4/5;
   }
-
   .img8 {
     grid-column: 2/4;
     grid-row: 4/5;
   }
-
   .masajes {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
   }
-
   .tarj {
     width: 30%;
   }
-
   .mainContacto {
     flex-wrap: wrap;
     margin-top: 50px;
   }
-
   form input {
     width: 300px;
   }
-
   form textarea {
     width: 350px;
   }
-
   .mainContacto aside iframe {
     margin-top: 30px;
     height: 400px;
     width: 650px;
   }
-
   footer {
     margin-top: 50px;
   }
-
   .plantilla {
     flex-flow: row wrap;
     align-items: start;
   }
-
   .staff {
     width: 350px;
   }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .linea {
+    width: 80%;
+    height: 200px;
+    align-self: flex-end;
+  }
+  .linea2 {
+    width: 80%;
+    height: 200px;
+    align-self: flex-start;
+  }
+  .promo {
+    height: auto;
+  }
+  .ip1 {
+    height: auto;
+  }
+  .ip2 {
+    height: auto;
+  }
+  .ip3 {
+    height: auto;
+  }
+  .ip4 {
+    height: auto;
+  }
 }
-
 @media only screen and (min-width: 1024px) {
   .aleft {
     width: 90%;
     justify-self: start;
     margin-left: 10%;
   }
-
   .aright {
     width: 50%;
     justify-self: end;
     margin-right: 25%;
   }
-
   h2 {
     margin-top: 50px;
   }
-
   .galeria {
     grid-template-columns: repeat(4, 1fr);
     width: 80%;
     grid-gap: 15px;
     margin: 0 10% 0 10%;
   }
-
   .img1 {
     grid-column: 1/3;
     grid-row: 1/2;
   }
-
   .img2 {
     grid-column: 3/5;
     grid-row: 1/2;
   }
-
   .img3 {
     grid-column: 1/3;
     grid-row: 2/3;
   }
-
   .img4 {
     grid-column: 3/5;
     grid-row: 2/3;
   }
-
   .img5 {
     grid-column: 1/3;
     grid-row: 3/4;
   }
-
   .img6 {
     grid-column: 3/5;
     grid-row: 3/4;
   }
-
   .img7 {
     grid-column: 1/3;
     grid-row: 4/5;
   }
-
   .img8 {
     grid-column: 3/5;
     grid-row: 4/5;
   }
-
   .masajes {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
   }
-
   .tarj {
     width: 25%;
     height: 600px;
     margin: 40px;
   }
-
   .tarj aside {
     height: 300px;
   }
-
   form input {
     width: 325px;
   }
-
   form textarea {
     width: 400px;
   }
-
   .mainContacto aside iframe {
     margin-top: 50px;
     height: 450px;
     width: 900px;
   }
-
   .plantilla {
     justify-content: center;
   }
-
   .staff {
     width: 700px;
     margin-bottom: 100px;
   }
-
   .foto {
     height: 300px;
     width: 300px;
   }
+  .linea {
+    width: 65%;
+    height: 300px;
+  }
+  .linea2 {
+    width: 65%;
+    height: 300px;
+  }
+  .promo p {
+    font-size: 20px;
+  }
 }
-
 @media only screen and (min-width: 1350px) {
   .aleft {
     width: 75%;
     justify-self: flex-end;
   }
-
   .galeria {
     grid-template-columns: repeat(5, 1fr);
     justify-content: center;
@@ -728,88 +770,70 @@ h3 {
     grid-gap: 25px;
     margin: 50px 10% 50px 10%;
   }
-
   .img1 {
     grid-column: 1/4;
     grid-row: 1/2;
   }
-
   .img2 {
     grid-column: 4/6;
     grid-row: 1/2;
   }
-
   .img3 {
     grid-column: 1/3;
     grid-row: 2/3;
   }
-
   .img4 {
     grid-column: 3/6;
     grid-row: 2/3;
   }
-
   .img5 {
     grid-column: 1/4;
     grid-row: 3/4;
   }
-
   .img6 {
     grid-column: 4/6;
     grid-row: 3/4;
   }
-
   .img7 {
     grid-column: 1/3;
     grid-row: 4/5;
   }
-
   .img8 {
     grid-column: 3/6;
     grid-row: 4/5;
   }
-
   .masajes {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     gap: 100px;
   }
-
   .tarj {
     width: 25%;
     height: 650px;
     margin: 30px 0 30px 0;
   }
-
   .tarj aside {
     height: 350px;
   }
-
   form input {
     width: 550px;
   }
-
   form textarea {
     width: 700px;
     height: 300px;
   }
-
   .mainContacto aside iframe {
     margin-top: 50px;
     height: 600px;
     width: 1200px;
   }
-
   .staff {
     width: 90%;
     margin-bottom: 150px;
   }
-
   .foto {
     height: 450px;
     width: 450px;
   }
-}
-
-/*# sourceMappingURL=estilo.css.map */
+}/*# sourceMappingURL=estilo.css.map */

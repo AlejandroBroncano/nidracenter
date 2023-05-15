@@ -11,17 +11,15 @@ $grisClaro: #efefef;
 $gris: #cecfc9;
 $negro: #000;
 
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 @import "_inicio";
 @import "_masajes";
 @import "_contacto";
-
 @import "_about";
-
-
+@import "_promociones.scss";
 @import "_mediaQueries.scss";

@@ -1,42 +1,42 @@
-body{
+body {
     background-color: $grisClaro;
 }
 
-.navbar{
+.navbar {
     background: $celeste;
     background: linear-gradient(180deg, $celeste 40%, $grisClaro 100%);
     font-family: $links;
 
-    span{
+    span {
         color: $negro;
     }
 }
 
-.navbar-brand{
+.navbar-brand {
     text-shadow: 0 0 1px $negro;
     color: $azul !important;
     font-weight: bold;
 }
 
-.nav-link{
+.nav-link {
     color: $negro !important;
     font-family: $links;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     text-shadow: 0 0 1px $negro;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: none;
 }
 
-.fa-bars{
+.fa-bars {
     color: $azul !important;
     font-size: 25px;
 }
 
-.mainIndex{
+.mainIndex {
     width: 100%;
     height: auto;
     display: grid;
@@ -44,7 +44,7 @@ body{
     padding: 10px;
 }
 
-.aleft{
+.aleft {
     height: 275px;
     width: 90%;
     justify-self: center;
@@ -54,12 +54,12 @@ body{
     border-radius: 50%;
 }
 
-.aright{
+.aright {
     height: auto;
     width: 100%;
     padding: 15px;
 
-    h1{
+    h1 {
         font-size: 30px;
         font-family: $links;
         color: $azul;
@@ -67,14 +67,14 @@ body{
         margin-bottom: 20px;
     }
 
-    p{
+    p {
         font-family: $texto;
         text-align: justify;
     }
-    
+
 }
 
-.botonMas{
+.botonMas {
     background-color: $gris;
     padding: 8px 30px;
     color: $azul;
@@ -87,7 +87,7 @@ body{
     transition: 0.5s;
 }
 
-.botonMas:hover{
+.botonMas:hover {
     text-decoration: none;
     color: $gris;
     background-color: $azul;
@@ -96,19 +96,19 @@ body{
     transition: 0.5s;
 }
 
-h2{
-height: auto;
-width: 100%;
-background: $grisClaro;
-background: linear-gradient(90deg, $grisClaro 0%, #bed3ea 25%, $celeste 50%, #bdd2ea 71%, $grisClaro 100%);
-text-align: center;
-color: $negro;
-text-shadow: 0 0 5px $azul, 0 0 2px $azul;
-margin-top: 20px;
-padding: 15px;
+h2 {
+    height: auto;
+    width: 100%;
+    background: $grisClaro;
+    background: linear-gradient(90deg, $grisClaro 0%, #bed3ea 25%, $celeste 50%, #bdd2ea 71%, $grisClaro 100%);
+    text-align: center;
+    color: $negro;
+    text-shadow: 0 0 5px $azul, 0 0 2px $azul;
+    margin-top: 20px;
+    padding: 15px;
 }
 
-.galeria{
+.galeria {
     width: 100%;
     height: auto;
     padding: 12px;
@@ -119,7 +119,7 @@ padding: 15px;
     gap: 10px;
 }
 
-.img{
+.img {
     width: 100%;
     border: 3px solid $azul;
     border-radius: 20px;
@@ -130,78 +130,78 @@ padding: 15px;
     transition: 1s;
 }
 
-.img:hover{
+.img:hover {
     filter: grayscale(100);
     transition: 1s;
 }
 
-.img1{
+.img1 {
     background-image: url(../media/16195213714551.jpg);
 }
 
-.img2{
+.img2 {
     background-image: url(../media/pexels-tima-miroshnichenko-6187852.jpg);
 }
 
-.img3{
+.img3 {
     background-image: url(../media/maderoterapia-1669129793.jpeg);
 }
 
-.img4{
+.img4 {
     background-image: url(../media/pexels-tima-miroshnichenko-6187638.jpg);
 }
 
-.img5{
+.img5 {
     background-image: url(../media/pexels-karolina-grabowska-4938449.jpg);
 }
 
-.img6{
+.img6 {
     background-image: url(../media/maderoterapia\ \(1\).jpg);
 }
 
-.img7{
+.img7 {
     background-image: url(../media/pexels-tima-miroshnichenko-6187851.jpg);
 }
 
-.img8{
+.img8 {
     background-image: url(../media/formacion-maderoterapia-corporal.jpg);
 }
 
-footer{
+footer {
     background: $celeste;
     background: linear-gradient(0deg, $celeste 40%, $grisClaro 100%);
     height: auto;
     font-family: $links;
 }
 
-.derechos{
+.derechos {
     text-align: center;
 
-    p{
+    p {
         color: $negro;
         font-size: 22px;
         padding-top: 15px;
     }
 }
 
-.redes{
+.redes {
     text-align: center;
     padding-bottom: 15px;
     font-size: 40px;
     letter-spacing: 15px;
 
-    a{
+    a {
         color: $azul;
         text-shadow: 0 0 1px $negro;
     }
 }
 
-.redes a:hover{
+.redes a:hover {
     color: $grisClaro;
 }
 
 /* BOTON WHATSAPP */
-.what{
+.what {
     height: 50px;
     width: 50px;
     position: fixed;
@@ -212,6 +212,6 @@ footer{
     text-shadow: 0 0 2px $negro;
 }
 
-.what:hover{
+.what:hover {
     color: springgreen;
 }

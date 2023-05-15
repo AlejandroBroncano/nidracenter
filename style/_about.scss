@@ -1,10 +1,10 @@
-.manos{
+.manos {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.aNosotrosL{
+.aNosotrosL {
     height: 250px;
     width: 94%;
     background-image: url(../media/manos.png);
@@ -12,13 +12,13 @@
     background-size: cover;
 }
 
-.aNosotrosR{
+.aNosotrosR {
     font-family: $texto;
     padding: 15px;
     text-align: justify;
 }
 
-.plantilla{
+.plantilla {
     height: auto;
     width: 95%;
     background-color: $grisClaro;
@@ -29,7 +29,7 @@
     margin: 2.5%;
 }
 
-.staff{
+.staff {
     height: auto;
     width: 250px;
     border-radius: 12px;
@@ -43,14 +43,14 @@
     margin: 50px;
 }
 
-.staff:hover{
+.staff:hover {
     background-color: $celeste;
     transform: scale(1.1) rotate(10deg);
     color: #fff;
     transition: all 0.7s;
 }
 
-.foto{
+.foto {
     height: 150px;
     width: 150px;
     border-radius: 100%;
@@ -60,23 +60,23 @@
     background-size: cover;
 }
 
-.foto1{
+.foto1 {
     background-image: url(../media/mujer.jpg);
 }
 
-.foto2{
+.foto2 {
     background-image: url(../media/hombre.jpg);
 }
 
-.foto3{
+.foto3 {
     background-image: url(../media/hombre2.jpg);
 }
 
-.foto4{
+.foto4 {
     background-image: url(../media/hombre3.jpg);
 }
 
-h3{
+h3 {
     height: auto;
     width: 100%;
     padding: 12px;

@@ -1,0 +1,62 @@
+.linea {
+    width: 100%;
+    height: 150px;
+    margin: 50px 0 50px 0;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.linea2 {
+    width: 100%;
+    height: 150px;
+    margin: 50px 0 50px 0;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.promo {
+    width: 70%;
+    height: 150px;
+    padding: 5px;
+    background: $celeste;
+    background: linear-gradient(0deg, $celeste 40%, $grisClaro 100%);
+
+    p {
+        font-family: $texto;
+        color: $azul;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+.ip1 {
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 150px;
+    background-image: url(../media/madero10.jpg);
+}
+
+.ip2 {
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 150px;
+    background-image: url(../media/madero20.jpg);
+}
+
+.ip3 {
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 150px;
+    background-image: url(../media/madero30.jpg);
+}
+
+.ip4 {
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 150px;
+    background-image: url(../media/romantico.jpg);
+}

@@ -1,12 +1,12 @@
-.masajes{
+.masajes {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
 }
 
-.tarj{
+.tarj {
     background: $celeste;
-    background: linear-gradient(180deg, $celeste 40%, $grisClaro 100%);   
+    background: linear-gradient(180deg, $celeste 40%, $grisClaro 100%);
     width: 80%;
     height: 450px;
     border-radius: 20px;
@@ -17,7 +17,7 @@
     align-items: center;
     margin: 20px 0 20px 0;
 
-    aside{
+    aside {
         width: 90%;
         height: 200px;
         border-radius: 15px;
@@ -25,7 +25,7 @@
         background-size: cover;
     }
 
-    h3{
+    h3 {
         margin-top: 10px;
         padding: 10px;
         text-align: center;
@@ -38,25 +38,29 @@
         height: auto;
     }
 
-    p{
+    p {
         width: 90%;
         font-family: $texto;
         font-weight: bold;
     }
 }
 
-.tarj1 aside{
+.tarj1 aside {
     background-image: url(../media/t1.jpg);
 }
-.tarj2 aside{
+
+.tarj2 aside {
     background-image: url(../media/t2.jpg);
 }
-.tarj3 aside{
+
+.tarj3 aside {
     background-image: url(../media/t3.jpg);
 }
-.tarj4 aside{
+
+.tarj4 aside {
     background-image: url(../media/t4.jpg);
 }
-.tarj5 aside{
+
+.tarj5 aside {
     background-image: url(../media/t5.jpg);
 }
